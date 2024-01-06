@@ -79,7 +79,7 @@ export default function ProductManagement() {
                                         <Field className='unique-input' type="text" name="productQuantity" placeholder="Enter product type" value={values.productQuantity} onChange={handleChange} />
                                         <ErrorMessage name="productQuantity" component="div" className="error" />
                                     </div>
-                                    <button type="submit" className="unique-button-submit">SUBMITasd</button>
+                                    <button type="submit" className="unique-button-submit">SUBMIT</button>
                                 </Form>
                             )}
                         </Formik>
