@@ -1,10 +1,11 @@
-.nav-link:hover{
+.nav-link:hover {
     background-color: red;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     color: white !important;
 }
-.add-product{
-    background-color: rgb(0,133,255);
+
+.add-product {
+    background-color: rgb(0, 133, 255);
     border: none;
     padding: 12px 30px;
     border-radius: 40px;
@@ -13,15 +14,129 @@
     right: 40px;
     top: 120px;
 }
-.form-control{
-    background-color: rgb(217,217,217);
-    padding: 15px;
-    font-size: 14px;
-}
-.form-select{
-    background-color: rgb(217,217,217);
-    padding: 15px;
+
+.form-select {
+    background-color: rgb(217, 217, 217);
+    padding: 10px 12px;
+    margin-top: 16px;
     font-size: 14px;
     color: rgb(94, 94, 94);
     cursor: pointer;
 }
+
+.error {
+    color: rgb(150, 0, 0);
+    margin-left: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.082);  
+
+}
+.title {
+    width: 50%;
+    margin-left: 310px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.quantity-container {
+    width: 30%;
+    margin-left: 310px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #31313125;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submitted-message{
+    margin-left: 310px;
+    display: block;
+}
+/* CSS for the paper-style input field */
+.paper-input {
+    position: relative;
+    margin: 50px;
+  }
+  
+  .unique-input {
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .unique-input:focus {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+    padding: 0 5px;
+  }
+  
+  .unique-input:focus ~ label,
+  .unique-input:not(:placeholder-shown) ~ label {
+    top: -40px;
+    font-size: 12px;
+    color: #007bff;
+    background-color: #fff;
+  }
+  
+  .unique-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .unique-button:hover {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  .unique-button-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #002750;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .unique-button-submit:hover {
+    background-color: transparent;
+    border: 1px solid #002750;
+    color: #002750;
+  }
+  
