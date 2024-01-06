@@ -72,14 +72,14 @@ export default function ProductManagement() {
                             {({ values, handleChange, handleSubmit }) => (
                                 <Form onSubmit={handleSubmit}>
                                     <div className="fields">
-                                        <Field className="unique-input" type="text" name="productName" placeholder="Product Name" value={values.productName} onChange={handleChange} />
+                                        <Field className="unique-input" type="text" name="productName" placeholder="Enter product name" value={values.productName} onChange={handleChange} />
                                         <ErrorMessage name="productName" component="div" className="error" />
                                     </div>
                                     <div className="fields">
-                                        <Field className='unique-input' type="text" name="productQuantity" placeholder="Type" value={values.productQuantity} onChange={handleChange} />
+                                        <Field className='unique-input' type="text" name="productQuantity" placeholder="Enter product type" value={values.productQuantity} onChange={handleChange} />
                                         <ErrorMessage name="productQuantity" component="div" className="error" />
                                     </div>
-                                    <button type="submit" className="unique-button-submit">SUBMIT</button>
+                                    <button type="submit" className="unique-button-submit">SUBMITasd</button>
                                 </Form>
                             )}
                         </Formik>
