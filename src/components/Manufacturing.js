@@ -74,6 +74,7 @@ export default function Manufacturing() {
             </div>
           </div>
         </div>
+            <button className="btn btn-primary px-5 my-5 py-2 rounded-pill">SUBMIT</button>
       </div>
     </>
   );
