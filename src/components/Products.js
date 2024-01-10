@@ -92,7 +92,7 @@ const Products = () => {
                 <Field
                   as="select"
                   name="category"
-                  className="form-select"
+                  className="form-select w-50"
                   aria-label="Select Category Items"
                 >
                   <option>Select the Category</option>
@@ -111,7 +111,7 @@ const Products = () => {
                 <Field
                   as="select"
                   name="series"
-                  className="form-select mb-2"
+                  className="form-select w-50"
                   aria-label="Select series Items"
                 >
                   <option>Select the Series</option>
@@ -158,7 +158,7 @@ const Products = () => {
 
                     return (
                       <Select
-                      className="form-select"
+                      className="form-select w-50"
                         {...field}
                         options={options}
                         onChange={handleChange}

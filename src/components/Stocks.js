@@ -73,11 +73,11 @@ export default function ProductManagement() {
                                 <Form onSubmit={handleSubmit}>
                                     <div className="fields">
                                         <Field className="unique-input" type="text" name="productName" placeholder="Enter product name" value={values.productName} onChange={handleChange} />
-                                        <ErrorMessage name="productName" component="div" className="error" />
+                                        <ErrorMessage name="productName" component="div" className="error-msg" />
                                     </div>
                                     <div className="fields">
                                         <Field className='unique-input' type="text" name="productQuantity" placeholder="Enter product type" value={values.productQuantity} onChange={handleChange} />
-                                        <ErrorMessage name="productQuantity" component="div" className="error" />
+                                        <ErrorMessage name="productQuantity" component="div" className="error-msg" />
                                     </div>
                                     <button type="submit" className="unique-button-submit">SUBMIT</button>
                                 </Form>
