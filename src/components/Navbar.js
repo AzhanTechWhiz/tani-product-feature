@@ -23,6 +23,9 @@ export default function Navbar() {
             <li class="nav-item">
               <Link class="nav-link mx-3" to="/stocks">Stock-Adjustment</Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link mx-3" to="/Manufacturing">Manufacture</Link>
+            </li>
           </ul>
         </div>
       </div>

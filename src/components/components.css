@@ -65,7 +65,6 @@ nav {
     margin-left: 310px;
     display: block;
 }
-/* CSS for the paper-style input field */
 .paper-input {
     position: relative;
     margin: 50px;
@@ -139,4 +138,36 @@ nav {
     border: 1px solid #002750;
     color: #002750;
   }
-  
+  .line{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .error-msg {
+    color: rgb(150, 0, 0);
+    margin-left: 4px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-container{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.submit-button {
+  width: 20%;
+  padding: 10px 10px;
+  background-color: #007bff;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
